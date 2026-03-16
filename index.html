@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TherapyCenter — Fisioterapia & Terapia Ocupacional | Araçatuba, SP</title>
+  <meta name="description" content="Clínica TherapyCenter em Araçatuba, SP. Fisioterapia, Terapia Ocupacional e Núcleo de Desenvolvimento Neuropsicomotor. Mais de 12 anos de excelência." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="shortcut icon" href="src/therapy center.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#sobre" onclick="closeMobile()">Sobre</a>
+  <a href="#servicos" onclick="closeMobile()">Serviços</a>
+  <a href="#diferenciais" onclick="closeMobile()">Diferenciais</a>
+  <a href="#avaliacoes" onclick="closeMobile()">Avaliações</a>
+  <a href="#contato" onclick="closeMobile()">Contato</a>
+  <a href="https://wa.me/5518991047790?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20TherapyCenter." target="_blank" rel="noopener" class="btn btn-vivid" onclick="closeMobile()">Agendar Consulta</a>
+</div>
+
+<!-- NAV -->
+<div class="nav-wrap">
+  <nav id="mainNav">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-img">
+        <img src="src/therapy center.png" alt="TherapyCenter" />
+      </div>
+      <span class="nav-logo-name">TherapyCenter</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#diferenciais">Diferenciais</a></li>
+      <li><a href="#avaliacoes">Avaliações</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="https://wa.me/5518991047790?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20TherapyCenter." target="_blank" rel="noopener" class="nav-cta">Agendar Consulta</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu" onclick="toggleMobile()">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</div>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          ★★★★★ &nbsp;5,0 · 16 avaliações no Google
+        </div>
+        <h1 class="hero-h1">
+          Onde cada<br>
+          <em>movimento</em><br>
+          <span class="accent">transforma vidas.</span>
+        </h1>
+        <p class="hero-desc">
+          Fisioterapia, Terapia Ocupacional e Desenvolvimento Neuropsicomotor com
+          <strong>mais de 12 anos</strong> de excelência em Araçatuba, SP.
+          Tratamento humanizado, equipe especializada, resultados reais.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/5518991047790?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20TherapyCenter." target="_blank" rel="noopener" class="btn btn-vivid">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Agendar pelo WhatsApp
+          </a>
+          <a href="#servicos" class="btn btn-ghost">Conheça os serviços</a>
+        </div>
+        <div class="hero-stats">
+          <div><div class="hs-num">+12</div><div class="hs-lbl">Anos de atuação</div></div>
+          <div><div class="hs-num">5,0★</div><div class="hs-lbl">Nota no Google</div></div>
+          <div><div class="hs-num">16</div><div class="hs-lbl">Avaliações</div></div>
+          <div><div class="hs-num">3</div><div class="hs-lbl">Especialidades</div></div>
+        </div>
+      </div>
+
+      <!-- Visual: Butterfly + Handprints -->
+      <div class="hero-visual">
+        <div class="butterfly-wrap">
+
+          <!-- Butterfly SVG -->
+          <svg class="butterfly-svg" viewBox="0 0 380 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Glow base -->
+            <ellipse cx="190" cy="160" rx="110" ry="90" fill="rgba(255,255,255,0.03)"/>
+            <!-- Upper left wing — blue -->
+            <path d="M178 148 C155 100 100 68 52 76 C18 82 16 116 35 140 C58 168 115 170 178 158 Z" fill="#1E88E5"/>
+            <path d="M178 148 C158 108 122 88 92 94 C68 100 68 124 86 140 C108 158 150 160 178 155 Z" fill="#42A5F5" opacity="0.55"/>
+            <!-- Upper right wing — green -->
+            <path d="M202 148 C225 100 280 68 328 76 C362 82 364 116 345 140 C322 168 265 170 202 158 Z" fill="#43A047"/>
+            <path d="M202 148 C222 108 258 88 288 94 C312 100 312 124 294 140 C272 158 230 160 202 155 Z" fill="#81C784" opacity="0.55"/>
+            <!-- Lower left wing — orange -->
+            <path d="M178 162 C152 176 100 192 68 210 C42 226 52 248 80 248 C114 248 158 232 176 202 Z" fill="#FF7043"/>
+            <path d="M178 162 C160 174 124 186 104 200 C90 212 96 228 118 230 C144 232 170 216 178 198 Z" fill="#FF8A65" opacity="0.5"/>
+            <!-- Lower right wing — purple -->
+            <path d="M202 162 C228 176 280 192 312 210 C338 226 328 248 300 248 C266 248 222 232 204 202 Z" fill="#AB47BC"/>
+            <path d="M202 162 C220 174 256 186 276 200 C290 212 284 228 262 230 C236 232 210 216 202 198 Z" fill="#CE93D8" opacity="0.5"/>
+            <!-- Body -->
+            <ellipse cx="190" cy="168" rx="9" ry="52" fill="#0D2057"/>
+            <!-- Head -->
+            <circle cx="190" cy="112" r="13" fill="#0D2057"/>
+            <!-- Antenna left -->
+            <path d="M184 101 Q168 78 171 62" stroke="#0D2057" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <circle cx="170" cy="60" r="5.5" fill="#FFC107"/>
+            <!-- Antenna right -->
+            <path d="M196 101 Q212 78 209 62" stroke="#0D2057" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <circle cx="210" cy="60" r="5.5" fill="#FF9800"/>
+            <!-- Wing shine -->
+            <path d="M88 120 Q76 115 72 126" stroke="rgba(255,255,255,0.35)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <path d="M292 120 Q304 115 308 126" stroke="rgba(255,255,255,0.35)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+            <path d="M95 200 Q82 208 85 218" stroke="rgba(255,255,255,0.25)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <path d="M285 200 Q298 208 295 218" stroke="rgba(255,255,255,0.25)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          </svg>
+
+          <!-- Handprints around butterfly (matching logo layout) -->
+          <!-- Handprint SVG path = palm + 5 fingers silhouette -->
+          <div class="handprint hp-n"  style="background:#FFC107;">
+            <svg viewBox="0 0 40 44" fill="#7F6000"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+          <div class="handprint hp-ne" style="background:#FF7043;">
+            <svg viewBox="0 0 40 44" fill="#7A1D00"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+          <div class="handprint hp-e"  style="background:#E91E63;">
+            <svg viewBox="0 0 40 44" fill="#6A0032"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+          <div class="handprint hp-se" style="background:#AB47BC;">
+            <svg viewBox="0 0 40 44" fill="#4A0072"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+          <div class="handprint hp-s"  style="background:#1E88E5;">
+            <svg viewBox="0 0 40 44" fill="#0D2057"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+          <div class="handprint hp-sw" style="background:#43A047;">
+            <svg viewBox="0 0 40 44" fill="#0A3A0A"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+          <div class="handprint hp-w"  style="background:#8BC34A;">
+            <svg viewBox="0 0 40 44" fill="#2E5000"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+          <div class="handprint hp-nw" style="background:#FF9800;">
+            <svg viewBox="0 0 40 44" fill="#7A3D00"><ellipse cx="20" cy="32" rx="14" ry="10"/><ellipse cx="6" cy="24" rx="4" ry="7" transform="rotate(20 6 24)"/><ellipse cx="11" cy="14" rx="3.5" ry="8"/><ellipse cx="19" cy="11" rx="3.5" ry="9"/><ellipse cx="27" cy="13" rx="3.5" ry="8"/><ellipse cx="34" cy="19" rx="4" ry="7" transform="rotate(-20 34 19)"/></svg>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ MARQUEE ═══════════ -->
+<div class="marquee-bar">
+  <div class="marquee-track">
+    <span>Fisioterapia</span><span class="dot">Terapia Ocupacional</span>
+    <span>Desenvolvimento Neuropsicomotor</span><span class="dot">Reabilitação Neurológica</span>
+    <span>Fisioterapia Pediátrica</span><span class="dot">Reabilitação Ortopédica</span>
+    <span>Tratamento Humanizado</span><span class="dot">+12 Anos de Excelência</span>
+    <span>5,0 no Google</span><span class="dot">Araçatuba, SP</span>
+    <span>Fisioterapia</span><span class="dot">Terapia Ocupacional</span>
+    <span>Desenvolvimento Neuropsicomotor</span><span class="dot">Reabilitação Neurológica</span>
+    <span>Fisioterapia Pediátrica</span><span class="dot">Reabilitação Ortopédica</span>
+    <span>Tratamento Humanizado</span><span class="dot">+12 Anos de Excelência</span>
+    <span>5,0 no Google</span><span class="dot">Araçatuba, SP</span>
+  </div>
+</div>
+
+<!-- ═══════════ ABOUT ═══════════ -->
+<section class="about" id="sobre">
+  <div class="about-wm">12+</div>
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal-l">
+        <span class="eyebrow">Nossa história</span>
+        <h2 class="about-title">Comprometidos com a sua<br><em>recuperação</em> e qualidade de vida</h2>
+        <p class="about-text">A Clínica TherapyCenter nasceu da vontade de oferecer atendimento fisioterapêutico e de terapia ocupacional de alto nível para a comunidade de Araçatuba e região. Há mais de 12 anos atuando com seriedade e compromisso.</p>
+        <p class="about-text">Nossa equipe é formada por Fisioterapeutas e Terapeutas Ocupacionais especializadas, buscando assegurar o tratamento mais adequado e humanizado para cada paciente, com as técnicas mais atuais de intervenção.</p>
+        <div class="about-pills">
+          <span class="about-pill"><svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Equipe multidisciplinar</span>
+          <span class="about-pill"><svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Técnicas atuais</span>
+          <span class="about-pill"><svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>Atendimento humanizado</span>
+          <span class="about-pill"><svg viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>+12 anos de experiência</span>
+        </div>
+      </div>
+      <div class="about-visual reveal-r">
+        <div class="about-main-card">
+          <div class="about-card-z">
+            <div class="about-big-num">12+</div>
+            <div class="about-card-title">Anos transformando vidas em Araçatuba</div>
+            <p class="about-card-text">Desde a fundação, a TherapyCenter tornou-se referência em reabilitação e desenvolvimento neuropsicomotor, com um time de especialistas dedicados a cada paciente.</p>
+          </div>
+        </div>
+        <div class="about-float">
+          <div class="af-stars">★★★★★</div>
+          <div class="af-title">5,0 no Google</div>
+          <div class="af-sub">16 avaliações verificadas</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ SERVICES ═══════════ -->
+<section class="services" id="servicos">
+  <div class="container">
+    <div class="services-hdr reveal">
+      <div>
+        <span class="eyebrow">O que oferecemos</span>
+        <h2 class="services-title">Especialidades que cuidam<br>de <em>você por inteiro</em></h2>
+      </div>
+      <p class="services-desc">Três especialidades integradas, uma abordagem centrada em você e na sua qualidade de vida.</p>
+    </div>
+    <div class="bento">
+      <div class="bc dark reveal" style="transition-delay:.05s">
+        <div class="bc-num">01</div>
+        <div class="bc-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm.31-8.86c-1.77-.45-2.34-.94-2.34-1.67 0-.84.79-1.43 2.1-1.43 1.38 0 1.9.66 1.94 1.64h1.71c-.05-1.34-.87-2.57-2.49-2.97V5H10.9v1.69c-1.51.32-2.72 1.3-2.72 2.81 0 1.79 1.49 2.69 3.66 3.21 1.95.46 2.34 1.15 2.34 1.87 0 .53-.39 1.39-2.1 1.39-1.6 0-2.23-.72-2.32-1.64H8.04c.1 1.7 1.36 2.66 2.86 2.97V19h2.34v-1.67c1.52-.29 2.72-1.16 2.73-2.77-.01-2.2-1.9-2.96-3.66-3.42zM13 11V7h-2v4H7v2h4v4h2v-4h4v-2h-4z"/></svg>
+        </div>
+        <h3 class="bc-title">Desenvolvimento Neuropsicomotor</h3>
+        <p class="bc-text">Atuação especializada no Núcleo de Desenvolvimento Neuropsicomotor, promovendo o desenvolvimento integral da criança por meio de intervenções terapêuticas personalizadas.</p>
+      </div>
+      <div class="bc viv reveal" style="transition-delay:.1s">
+        <div class="bc-num">★</div>
+        <div class="bc-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        </div>
+        <h3 class="bc-title">5,0 no Google</h3>
+        <p class="bc-text">16 avaliações verificadas de pacientes reais que transformaram sua qualidade de vida.</p>
+      </div>
+      <div class="bc lite reveal" style="transition-delay:.15s">
+        <div class="bc-num">02</div>
+        <div class="bc-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20A10 10 0 0012 2zm1 15H11v-4H7v-2h4V7h2v4h4v2h-4v4z"/></svg>
+        </div>
+        <h3 class="bc-title">Fisioterapia Ortopédica</h3>
+        <p class="bc-text">Reabilitação de lesões musculoesqueléticas, pós-operatório, dores articulares e coluna com técnicas manuais e exercícios terapêuticos.</p>
+      </div>
+      <div class="bc gold reveal" style="transition-delay:.2s">
+        <div class="bc-num">03</div>
+        <div class="bc-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+        </div>
+        <h3 class="bc-title">Terapia Ocupacional</h3>
+        <p class="bc-text">Reabilitação funcional para autonomia e independência nas atividades diárias, com abordagem humanizada e centrada no paciente.</p>
+      </div>
+      <div class="bc lite reveal" style="transition-delay:.25s">
+        <div class="bc-num">04</div>
+        <div class="bc-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+        </div>
+        <h3 class="bc-title">Fisioterapia Neurológica</h3>
+        <p class="bc-text">Tratamento especializado para sequelas neurológicas como AVC, paralisia cerebral, Parkinson e outras condições neuromotoras.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ STATS ═══════════ -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card reveal" style="border-color:rgba(30,136,229,0.3);"><div class="stat-num" style="color:#42A5F5">+12</div><div class="stat-lbl">Anos de<br>atuação</div></div>
+      <div class="stat-card reveal" style="transition-delay:.1s;border-color:rgba(67,160,71,0.3);"><div class="stat-num" style="color:#66BB6A">5,0</div><div class="stat-lbl">Estrelas<br>no Google</div></div>
+      <div class="stat-card reveal" style="transition-delay:.2s;border-color:rgba(255,112,67,0.3);"><div class="stat-num" style="color:#FF7043">16</div><div class="stat-lbl">Avaliações<br>verificadas</div></div>
+      <div class="stat-card reveal" style="transition-delay:.3s;border-color:rgba(171,71,188,0.3);"><div class="stat-num" style="color:#CE93D8">3+</div><div class="stat-lbl">Especialidades<br>integradas</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ WHY ═══════════ -->
+<section class="why" id="diferenciais">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <span class="eyebrow">Por que nos escolher</span>
+        <h2 class="why-title">O cuidado que faz<br>toda a <em>diferença</em></h2>
+        <p class="why-sub">Nossa abordagem vai além do tratamento — é sobre entender cada paciente como um ser único, com necessidades e objetivos próprios.</p>
+        <div class="why-items reveal">
+          <div class="why-item">
+            <div class="wi-n" style="color:#1E88E5">01</div>
+            <div><div class="wi-title">Equipe multidisciplinar especializada</div><div class="wi-desc">Fisioterapeutas e Terapeutas Ocupacionais com formação contínua e técnicas atualizadas.</div></div>
+          </div>
+          <div class="why-item">
+            <div class="wi-n" style="color:#43A047">02</div>
+            <div><div class="wi-title">Tratamento 100% personalizado</div><div class="wi-desc">Cada plano terapêutico é desenhado para as necessidades específicas de cada paciente.</div></div>
+          </div>
+          <div class="why-item">
+            <div class="wi-n" style="color:#FF7043">03</div>
+            <div><div class="wi-title">Abordagem humanizada</div><div class="wi-desc">Respeitamos a história, o ritmo e os objetivos de vida de cada pessoa que nos procura.</div></div>
+          </div>
+          <div class="why-item">
+            <div class="wi-n" style="color:#AB47BC">04</div>
+            <div><div class="wi-title">Resultados comprovados</div><div class="wi-desc">Mais de 12 anos de atuação com avaliação 5,0 no Google atestam nossa excelência.</div></div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal-r">
+        <div class="why-card">
+          <div class="why-card-z">
+            <div class="why-quote">"Nossa missão é devolver <em>liberdade de movimento</em> e qualidade de vida a cada paciente."</div>
+            <div class="why-divider"></div>
+            <div class="why-author"><strong>Equipe TherapyCenter</strong> · Araçatuba, SP</div>
+            <div class="why-minis">
+              <div class="why-mini"><div class="wm-num">+12</div><div class="wm-lbl">Anos</div></div>
+              <div class="why-mini"><div class="wm-num">5,0★</div><div class="wm-lbl">Google</div></div>
+              <div class="why-mini"><div class="wm-num">16</div><div class="wm-lbl">Avaliações</div></div>
+              <div class="why-mini"><div class="wm-num">3+</div><div class="wm-lbl">Especialidades</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CONVENIOS ═══════════ -->
+<section class="convenios">
+  <div class="container">
+    <div class="conv-inner reveal">
+      <span class="conv-label">Convênios aceitos</span>
+      <div class="conv-sep"></div>
+      <div class="conv-logos">
+        <div class="conv-card">
+          <img src="src/unimed.png" alt="Unimed" />
+        </div>
+        <div class="conv-card">
+          <img src="src/medical-saude-2023-11-6-17-52-Photoroom.png" alt="Medical Saúde" />
+        </div>
+        <div class="conv-card">
+          <img src="src/scsaude_logo2021-email-300x94.png" alt="SC Saúde" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ REVIEWS ═══════════ -->
+<section class="reviews" id="avaliacoes">
+  <div class="container">
+    <div class="reviews-hdr reveal">
+      <span class="eyebrow" style="justify-content:center;">Avaliações reais</span>
+      <h2 class="reviews-title">O que nossos <em>pacientes</em> dizem</h2>
+      <div class="g-badge">
+        <span class="gs">★★★★★</span>
+        <span class="gn">5,0</span>
+        <span>·</span>
+        <span>16 avaliações no Google</span>
+      </div>
+    </div>
+  </div>
+  <div class="reviews-wrap">
+    <div class="reviews-track">
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Profissionais excelentes! A equipe da TherapyCenter é incrível, o atendimento é humanizado e os resultados são reais. Recomendo demais!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#1E88E5,#1565C0)">M</div><div><div class="rc-name">Maria S.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Minha filha faz tratamento aqui há 2 anos. A evolução dela é notável. As terapeutas são dedicadas e muito competentes. Local impecável!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#F59E0B,#D97706)">J</div><div><div class="rc-name">João R.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Tratei minha hérnia de disco aqui e tive ótimos resultados. Profissionais muito qualificados, ambiente agradável. Super indico a todos!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#8B5CF6,#7C3AED)">A</div><div><div class="rc-name">Ana C.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Fisioterapia neurológica de altíssima qualidade. Muito satisfeita com a evolução do meu tratamento pós-AVC. Gratidão a toda a equipe!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#7B1FA2,#4A0080)">L</div><div><div class="rc-name">Luisa M.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Melhor clínica de fisioterapia de Araçatuba! Atendimento individualizado, profissionais atenciosos. Meu joelho nunca esteve tão bem."</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#EC4899,#BE185D)">C</div><div><div class="rc-name">Carlos B.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <!-- loop duplicate -->
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Profissionais excelentes! A equipe da TherapyCenter é incrível, o atendimento é humanizado e os resultados são reais. Recomendo demais!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#1E88E5,#1565C0)">M</div><div><div class="rc-name">Maria S.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Minha filha faz tratamento aqui há 2 anos. A evolução dela é notável. As terapeutas são dedicadas e muito competentes. Local impecável!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#F59E0B,#D97706)">J</div><div><div class="rc-name">João R.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Tratei minha hérnia de disco aqui e tive ótimos resultados. Profissionais muito qualificados, ambiente agradável. Super indico a todos!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#8B5CF6,#7C3AED)">A</div><div><div class="rc-name">Ana C.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+      <div class="rc">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-text">"Fisioterapia neurológica de altíssima qualidade. Muito satisfeita com a evolução do meu tratamento pós-AVC. Gratidão a toda a equipe!"</p>
+        <div class="rc-author"><div class="rc-av" style="background:linear-gradient(135deg,#7B1FA2,#4A0080)">L</div><div><div class="rc-name">Luisa M.</div><div class="rc-meta">Google · Avaliação verificada</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ CTA ═══════════ -->
+<section class="cta" id="contato">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <span class="eyebrow" style="justify-content:center;">Pronto para começar?</span>
+      <h2 class="cta-title">Dê o primeiro passo<br>em direção à sua <em>recuperação</em></h2>
+      <p class="cta-sub">Entre em contato pelo WhatsApp e agende sua avaliação. Nossa equipe está pronta para te atender com o cuidado que você merece.</p>
+      <div class="cta-btns">
+        <a href="https://wa.me/5518991047790?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20na%20TherapyCenter." target="_blank" rel="noopener" class="btn btn-vivid">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a href="tel:+5518991047790" class="btn btn-ghost">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          (18) 99104-7790
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ FOOTER ═══════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <div class="footer-logo-img" style="background:white;border-radius:10px;padding:4px;display:flex;align-items:center;justify-content:center;">
+            <img src="src/therapy center.png" alt="TherapyCenter" style="height:36px;width:auto;border-radius:8px;" />
+          </div>
+          <span class="footer-logo-name">TherapyCenter</span>
+        </div>
+        <p class="footer-desc">Fisioterapia, Terapia Ocupacional e Desenvolvimento Neuropsicomotor com mais de 12 anos de excelência em Araçatuba, SP.</p>
+      </div>
+      <div>
+        <div class="footer-col-title">Navegação</div>
+        <div class="footer-links">
+          <a href="#sobre">Sobre nós</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#diferenciais">Diferenciais</a>
+          <a href="#avaliacoes">Avaliações</a>
+          <a href="#contato">Contato</a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Contato</div>
+        <div class="footer-ci"><svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>(18) 99104-7790</div>
+        <div class="footer-ci"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>Araçatuba, SP</div>
+        <div class="footer-ci"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp: (18) 99104-7790</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">© 2026 TherapyCenter. Todos os direitos reservados.</div>
+      <div class="footer-bl">
+        <a href="#">Política de Privacidade</a>
+        <a href="#">Termos de Uso</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

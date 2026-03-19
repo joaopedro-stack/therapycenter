@@ -83,16 +83,7 @@
     .nav-links a:hover { color:var(--vivid); }
     nav.scrolled .nav-links a { color:var(--muted); }
     nav.scrolled .nav-links a:hover { color:var(--vivid); }
-    .nav-instagram {
-      display:flex; align-items:center; justify-content:center;
-      width:36px; height:36px; border-radius:50%;
-      color:white; transition:color .3s, background .3s, transform .2s;
-      flex-shrink:0;
-    }
-    .nav-instagram:hover { color:#E1306C; transform:scale(1.12); }
-    nav.scrolled .nav-instagram { color:var(--d800); }
-    nav.scrolled .nav-instagram:hover { color:#E1306C; }
-    .nav-cta {
+.nav-cta {
       background:var(--vivid); color:var(--d900) !important;
       font-size:.83rem; font-weight:700;
       padding:9px 20px; border-radius:var(--r-f);
